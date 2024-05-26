@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  width: 370px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+}
+
+pub {
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 800;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: hsl(0, 0%, 7%);
+}
+.hover:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+p {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+.image {
+  width: 100%;
+  border-radius: 12px;
+  height: auto;
+}
+
+.yellowBack {
+  font-weight: 800;
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 12px;
+  color: hsl(0, 0%, 7%);
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.greg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.name {
+  font-weight: 800;
+}
+.space {
+  margin-bottom: 10px;
+}
